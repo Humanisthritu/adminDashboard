@@ -1,26 +1,121 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme{
+    --color-primary: #02B290;
+    --color-secondary: #082830;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+::-webkit-scrollbar{width: 8px !important; height: 8px !important}
+::-webkit-scrollbar-thumb{background: #02B290;}
+::-webkit-scrollbar-track{background: #fff;}
+
+.container{width: 96%; margin : auto}
+
+.ReactCollapse--collapse {
+  transition: height 300ms;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+body{
+  background-color: #cccc;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.btn-border-g{border: 1px solid #02B290 !important; font-weight: 600 !important; color: #02B290 !important}
+.btn-border-g:hover{background-color: #353535 !important; color: #fff !important;}
+.btn-g{border: 1px solid #02B290 !important; font-weight: 600 !important; color: #02B290 !important; padding: 8px 15px !important;}
+.btn-g:hover{color: #fff !important; background-color: #02B290 !important;}
+
+.MuiTableHead-root th{
+  background: #f1f1f1 !important;
+  font-weight: 600 !important;
+  padding: 10px 16px !important ;
 }
+.MuiTableHead-root th{@apply text-gray-700!}
+.MuiTableCell-root{
+   padding: 10px 16px !important ;
+}
+/* .swiper-button-next,.swiper-button-prev{display: flex; align-items: center; justify-content: center; width: 50px !important; height:50px !important; background: #fff !important; border-radius: 100% !important;}
+.swiper-button-next svg,.swiper-button-prev svg{color: #000 !important; width: 15px !important;}
+.swiper-button-next:hover,.swiper-button-prev:hover{@apply !bg-primary}
+.swiper-button-next svg,.swiper-button-prev svg{color: #fff !important;}
+
+.MuiTab-list button{font-weight : 600 !important}
+.MuiTabs-list .Mui-selected{@apply !text-primary}
+.MuiTabs-indicator{background-color: #02B290 !important;}
+.MuiTabScrollButton-root svg{font-size: 20px !important; width: 20px !important; height: 20px !important}
+
+.btn-border-g{border: 1px solid #02B290 !important; font-weight: 600 !important; color: #02B290 !important}
+.btn-border-g:hover{background-color: #353535 !important; color: #fff !important;}
+.btn-g{border: 1px solid #02B290 !important; font-weight: 600 !important; color: #02B290 !important; padding: 8px 15px !important;}
+.btn-g:hover{color: #fff !important; background-color: #02B290 !important;}
+
+hr{border-color: rgba(0, 0,0,0.2) !important}
+
+.scroll::-webkit-scrollbar-thumb{background: #fafafa !important;}
+
+.MuiFormGroup-root .MuiTypography-root{font-size: 14px !important}
+.MuiFormGroup-root .MuiFormControlLabel-root .MuiCheckbox-root{padding:5px !important; padding-left: 10px !important;}
+.MuiFormGroup-root .Mui-checked .MuiSvgIcon-root{
+ fill: #02B290 !important
+}
+.MuiCheckbox-root{padding:5px !important; padding-left: 10px !important;}
+
+.ReactCollapse--collapse {
+  transition: height 300ms;
+}
+
+.Mui-checked .MuiSvgIcon-root{
+ fill: #02B290 !important
+}
+
+.ratingFilter .MuiCheckbox-root{padding-left: 0px !important }
+
+.range-slider{height:5px !important}
+.range-slider .range-slider_thumb, .range-slider .range-slider_range {@apply !bg-primary}
+.range-slider .range-slider_thumb{width:18px !important; height: 18px !important;}
+
+.MuiList-root li{
+font-weight: 15px !important ;
+}
+
+.MuiPaginationItem-circular.Mui-selected{background: #02B290 !important; color:#fff !important}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+  margin:0
+}
+
+input[type=number]{
+  -moz-appearance: textfield;
+}
+
+#qtyDrop .MuiList-root{
+  max-height: 250px !important;
+  overflow-y: auto !important;
+}
+
+#qtyDrop .MuiList-root::-webkit-scrollbar{
+  width: 8px;
+}
+
+#qtyDrop .MuiList-root::-webkit-scrollbar-track{
+  background: #f1f1f1;
+}
+
+#qtyDrop .MuiList-root::-webkit-scrollbar-thumb{
+  background: #02B290;
+  border-radius: 10px;
+}
+
+.react-international-phone-country-selector-button{width: 60px !important}
+.react-international-phone-input-container .react-international-phone-input{width: 90% !important; border: 1px solid rgba(0, 0, 0, 0.2) !important}
+.react-international-phone-input-container .react-international-phone-input:focus{border: 1px solid rgba(0, 0, 0, 0.2) !important}
+
+.myAcc .active::before{
+content:""; width:3px; height:100%; position: absolute; left:0px; top:0px; background: #02B290 !important;
+}
+
+.myAcc .active svg{color :#02B290 !important}
+
+.react-international-phone-country-selector-dropdown{z-index: 1000 !important; border: 0px !important; box-shadow: none !important;}
+.react-international-phone-country-selector-dropdown li{padding: 7px 10px !important;} */
