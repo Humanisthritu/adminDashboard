@@ -46,7 +46,7 @@ const Sidebar = () => {
       icon: <TbBrandProducthunt size={20} />,
       children: [
         { name: "Products list", href: "/products-list" },
-        { name: "Add New Product", href: "/add-product" },
+        { name: "Add New Product", href: "/products-list/add-product" },
       ]
     },
     {

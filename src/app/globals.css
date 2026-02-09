@@ -33,6 +33,12 @@ body{
 .MuiTableCell-root{
    padding: 10px 16px !important ;
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+  margin:0
+}
 /* .swiper-button-next,.swiper-button-prev{display: flex; align-items: center; justify-content: center; width: 50px !important; height:50px !important; background: #fff !important; border-radius: 100% !important;}
 .swiper-button-next svg,.swiper-button-prev svg{color: #000 !important; width: 15px !important;}
 .swiper-button-next:hover,.swiper-button-prev:hover{@apply !bg-primary}

@@ -1,0 +1,23 @@
+import React from 'react'
+import { FaRegImage } from "react-icons/fa";
+
+const UploadBox = () => {
+  return (
+    <div className="w-[150px] h-[120px] rounded-md bg-gray-100 p-5 border border-dashed border-[rgba(0,0,0,0.3)] flex items-center justify-center flex-col gap-2 relative">
+      
+      <FaRegImage size={40} className="text-gray-400" />
+
+      <span className="text-gray-500 text-[13px]">
+        Image Upload
+      </span>
+
+      <input
+        type="file"
+        className="absolute top-0 left-0 w-full h-full z-50 opacity-0"
+      />
+
+    </div>
+  )
+}
+
+export default UploadBox
