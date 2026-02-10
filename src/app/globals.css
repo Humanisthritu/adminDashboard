@@ -39,7 +39,7 @@ input::-webkit-inner-spin-button{
   -webkit-appearance: none;
   margin:0
 }
-/* .swiper-button-next,.swiper-button-prev{display: flex; align-items: center; justify-content: center; width: 50px !important; height:50px !important; background: #fff !important; border-radius: 100% !important;}
+.swiper-button-next,.swiper-button-prev{display: flex; align-items: center; justify-content: center; width: 50px !important; height:50px !important; background: #fff !important; border-radius: 100% !important;}
 .swiper-button-next svg,.swiper-button-prev svg{color: #000 !important; width: 15px !important;}
 .swiper-button-next:hover,.swiper-button-prev:hover{@apply !bg-primary}
 .swiper-button-next svg,.swiper-button-prev svg{color: #fff !important;}
@@ -124,4 +124,4 @@ content:""; width:3px; height:100%; position: absolute; left:0px; top:0px; backg
 .myAcc .active svg{color :#02B290 !important}
 
 .react-international-phone-country-selector-dropdown{z-index: 1000 !important; border: 0px !important; box-shadow: none !important;}
-.react-international-phone-country-selector-dropdown li{padding: 7px 10px !important;} */
+.react-international-phone-country-selector-dropdown li{padding: 7px 10px !important;}
